@@ -16,7 +16,7 @@ reqwest = { workspace = true, features = ["rustls-tls", "json"] }
 schemars = "0.8"
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
-sqlx = { workspace = true, features = ["runtime-tokio", "tls-rustls", "postgres", "json"] }
+sqlx = { workspace = true, features = ["runtime-tokio", "tls-rustls-aws-lc-rs", "postgres", "json"] }
 tokio = { workspace = true, features = ["full"] }
 toml = "1.1"
 xshell = "0.2"
